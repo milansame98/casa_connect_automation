@@ -35,7 +35,7 @@ export default defineConfig({
     headless:false,
   },
 
-  /* Configure projects for major browsers */
+  /* Configure projects for major browsers 1 */
   projects: [
     {
       name: 'chromium',
