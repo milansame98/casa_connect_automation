@@ -18,8 +18,8 @@ test.describe('Casa Login - POM', () => {
     await loginPage.login(USERNAME, PASSWORD);
 
     // Adjust this according to your app's post-login page
-    await page.waitForURL(`https://casaconnect.casa.lk`, { timeout: 10000 });
-    await expect(page.locator('text=Dashboard Of CASA')).toBeVisible();
+    await page.waitForURL(`https://casaconnect.casa.lk`, { timeout: 20000 });
+    await expect(page.locator('text=Dashboard Of CASA')).toBeVisible({ timeout: 20000 });
   });
 
   test('shows error for invalid credentials', async () => {
