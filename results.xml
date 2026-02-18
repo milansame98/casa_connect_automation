@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="18.730296">
+<testsuite name="user.spec.js" timestamp="2026-02-18T18:09:46.178Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.401" errors="0">
+<testcase name="Add User - Positive Scenario" classname="user.spec.js" time="13.401">
+</testcase>
+</testsuite>
+</testsuites>
